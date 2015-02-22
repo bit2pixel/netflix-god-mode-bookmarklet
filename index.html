@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Netflix God Mode Bookmarklet</title>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <style>
+    .jumbotron {background-color: white; margin-top: 40px !important; max-width: 600px; margin: 0 auto; padding: 50px; text-align: center}
+    .jumbotron .lead {margin-bottom: 30px}
+    .footer {text-align: center; color: #4099ff}
+    .footer a {color: #808080}
+  </style>
+</head>
+<body>
+  <div class="jumbotron">
+    <img src="netflix_logo.png">
+    <hr><h2>God Mode Bookmarklet</h2><hr>
+    <p class="lead">Drag the green button to your bookmarks bar.<br>Open Netflix and click on the bookmarklet to view all the movies at once. Enjoy!</p>
+    <a class="btn btn-lg btn-success" role="button" href="
+      javascript:
+      (function() {
+        if(window.location.href.indexOf('netflix.com') === -1) {
+          if (confirm('Please open Netflix and try again. Would you like me to redirect you to netflix.com?')) {
+            window.location.href = 'http://netflix.com'
+          } else { 
+            return false;
+          }
+        }
+        _.map(_.toArray(document.getElementsByClassName('slider')), function(e) {
+          e.parentNode.replaceChild(e.firstChild, e)
+        });
+        _.map(_.union(
+          _.toArray(document.getElementsByClassName('sliderButton')),
+          _.toArray(document.getElementsByClassName('evidence')),
+          _.toArray(document.getElementsByClassName('sharing-prompt')),
+          _.toArray(document.getElementsByClassName('boxShotDivider'))),function(e) {
+            e.parentNode.removeChild(e)
+        });
+      })();">
+      <i class="fa fa-bookmark"></i> Netflix | God Mode
+    </a>
+  </div>
+  <div class="footer">	
+    <small><i class="fa fa-twitter"></i> <a href="http://twitter.com/bit2pixel">@bit2pixel</a></small>
+  </div>
+</body>
+</html>

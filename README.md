@@ -1,4 +1,4 @@
-### Disclaimer: Netflix is a registered trademark and have no affiliation to this bookmarklet.
+### Disclaimer: Netflix is a registered trademark and has no affiliation to this bookmarklet.
 
 [Click here or the image to get it!](http://bit2pixel.com/netflix-god-mode/)
 

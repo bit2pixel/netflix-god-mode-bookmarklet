@@ -10,6 +10,8 @@
     .jumbotron .lead {margin-bottom: 30px}
     .footer {text-align: center; color: #4099ff}
     .footer a {color: #808080}
+    h5 {color: #777 !important}
+    small {margin-top: 20px}
   </style>
 </head>
 <body>
@@ -23,7 +25,7 @@
         if(window.location.href.indexOf('netflix.com') === -1) {
           if (confirm('Please open Netflix and try again. Would you like me to redirect you to netflix.com?')) {
             window.location.href = 'http://netflix.com'
-          } else { 
+          } else {
             return false;
           }
         }
@@ -43,8 +45,11 @@
   </div>
   <div class="footer">
     <h4>Disclaimer: Netflix is a registered trademark and has no affiliation to this bookmarklet.</h4>
-    <div><a href="https://github.com/bit2pixel/netflix-god-mode-bookmarklet">Get the source code</a></div>
+    <h5>Important: Never install other bookmarklets from an unknown source.<br> Make sure it's fully open source like this bookmarklet.<br> If you can, check the source code before installing; if you can't, please make sure it's coming from a trusted source.</h5>
+    <div><a href="https://github.com/bit2pixel/netflix-god-mode-bookmarklet">Click here to get the source code</a></div>
     <small><i class="fa fa-twitter"></i> <a href="http://twitter.com/bit2pixel">@bit2pixel</a></small>
   </div>
+  
+  <!-- Google Analytics -->
 </body>
 </html>

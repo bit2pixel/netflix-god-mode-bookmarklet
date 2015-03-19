@@ -27,6 +27,10 @@
             return false;
           }
         }
+        if(window.location.href.indexOf('browse') >= 0) {
+          alert('This version of the God Mode Bookmarklet isn\'t supporting the current Netflix version. Please go to you account settings and disable the \'Test participation\' setting.');
+          return false;
+        }
         _.map(_.toArray(document.getElementsByClassName('slider')), function(e) {
           e.parentNode.replaceChild(e.firstChild, e)
         });

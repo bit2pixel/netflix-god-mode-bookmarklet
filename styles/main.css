@@ -1,0 +1,216 @@
+/* Author: Renan Cakirerk @bit2pixel */
+
+html, body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 20px 0;
+  height: 1px;
+  border: 0px;
+  border-top: 1px dashed #ccc;
+}
+
+.cl-white {
+  color: #f0f0f0;
+}
+
+.cl-gray {
+  color: #c0c0c0;
+}
+
+.cl-salmon {
+  color: rgb(251, 151, 119);
+}
+
+.cl-toothpaste {
+  color: rgb(111, 232, 195);
+}
+
+.bg-smoke {
+  background-color: rgb(53, 62, 71);
+}
+
+.bg-green {
+  background-color: rgb(68, 177, 155);
+}
+
+.bg-hard-green {
+  background-color: rgb(123, 196, 115);
+}
+
+.bg-salmon {
+  background-color: rgb(251, 151, 119);
+}
+
+.bg-light-blue {
+  background-color: rgb(41, 178, 190);
+}
+
+.bg-white {
+  background-color: #f0f0f0;
+}
+
+.container {
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.pill {
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  border-radius: 200px;
+  padding: 20px 40px;
+}
+
+/* TOP SECTION */
+
+.section-top {
+  margin-top: 5px;
+}
+
+.section-top .container {}
+
+.section-top .container .instructions {
+  margin: 20px auto;
+  font-size: 18px;
+  max-width: 700px;
+}
+
+.section-top .container .logo {
+  width: 280px;
+  margin: 0 20px;
+}
+
+.section-top h1 {
+  color: #fff;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+.section-top .container .bookmarklet {
+  background-color: rgb(123, 196, 115);
+  color: #f0f0f0;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.section-top .container .bookmarklet:hover {
+  background-color: rgb(88, 197, 175);
+  text-decoration: none;
+}
+
+.section-top .container p {
+  margin: 20px;
+}
+
+.section-top .container .follow:hover {
+  text-decoration: none;
+  color: #55acee;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.section-top .container .source-code {
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.twitter-share-button {
+  vertical-align: bottom;
+}
+
+.facebook-share-button {
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+
+/* MIDDLE SECTION */
+
+.section-middle {}
+
+.section-middle .container {
+  color: #aaa;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-middle .title {
+  background-color: #c0c0c0;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 24px;
+  max-width: 200px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.section-middle .feat {
+  color: #aaa;
+  font-weight: 400;
+  margin: 10px 20px;
+  display: inline-block;
+  letter-spacing: -1px;
+}
+
+
+/* BOTTOM SECTION */
+
+.section-bottom {}
+
+.section-bottom p {
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgb(191, 252, 235);
+  max-width: 600px;
+}
+
+.section-bottom hr {
+  border-color: rgb(191, 252, 235);
+}
+
+.section-bottom p strong {
+  text-decoration: underline;
+}
+
+.section-bottom .disclaimer {
+  margin-bottom: 10px;
+}
+
+.section-bottom .warning {}
+
+.section-bottom .me {
+  color: white;
+  margin-top: 20px;
+}
